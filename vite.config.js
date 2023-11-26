@@ -15,7 +15,8 @@ export default defineConfig({
       "@assets": `${path.resolve(__dirname, "./src/shared/assets/")}`,
       "@layouts": `${path.resolve(__dirname, "./src/shared/layouts/")}`,
       "@sharedComponents": `${path.resolve(__dirname, "./src/shared/sharedComponents/")}`,
-      "@utils": `${path.resolve(__dirname, "./src/shared/utils/")}`,
+      "@enums": `${path.resolve(__dirname, "./src/shared/utils/enums")}`,
+      "@helpers": `${path.resolve(__dirname, "./src/shared/utils/helpers")}`,
     },
   },
 })
