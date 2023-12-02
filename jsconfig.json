@@ -7,7 +7,8 @@
       "@assets/*": ["src/shared/assets/*"],
       "@layouts/*": ["src/shared/layouts/*"],
       "@sharedComponents/*": ["src/shared/sharedComponents/*"],
-      "@utils/*": ["src/shared/utils/*"],
+      "@helpers/*": ["src/shared/utils/helpers/*"],
+      "@enums/*": ["src/shared/utils/enums/*"],
     }
   },
   "include": ["src/**/*.js","src/**/*.jsx"],
