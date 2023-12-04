@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["public/*"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/shared/assets/*"],
+      "@layouts/*": ["src/shared/layouts/*"],
+      "@sharedComponents/*": ["src/shared/sharedComponents/*"],
+      "@helpers/*": ["src/shared/utils/helpers/*"],
+      "@enums/*": ["src/shared/utils/enums/*"],
+    }
+  },
+  "include": ["src/**/*.js","src/**/*.jsx"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules",
+    "dist"
+  ],
+}
